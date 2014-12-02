@@ -9,6 +9,7 @@
 
         <!-- build:css styles/vendor.css -->
         <!-- bower:css -->
+        <link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.css" />
         <!-- endbower -->
         <!-- endbuild -->
 
@@ -25,15 +26,172 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <div class="hero-unit">
-            <h1>'Allo, 'Allo!</h1>
-            <p>You now have</p>
+        <header>
+          <h1>Clumpies Ice Cream Co.</h1>
+          <nav class="main-nav">
             <ul>
-                <li>HTML5 Boilerplate</li>
-                <li>Sass</li>
-                <li>Modernizr</li>
+                <li>Flavors</li>
+                <li>Our Process</li>
+                <li>About</li>
+                <li>Location</li>
+                <li>Partners</li>
+                <li>Clumpie's Cart</li>
+                <li>Wholesale</li>
+                <li>Contact</li>
             </ul>
-        </div>
+          </nav>
+        </header>
+
+        <section>
+          <h2><span class="script">Take a Look</span> Featured Flavors</h2>
+          <p>In addition to our classic flavors, Clumpies also offers rotating featured favorites throughout the year. These flavors change with the seasons, so follow us on <a href="#">Twitter</a>/<a href="#">Instagram</a> to stay up to date.</p>
+          <article class="featured-flavor">
+            <h3>Mascarpone and Figs</h3>
+            <img src="images/marscapogne-fig.jpg" alt="mascarpone and figs">
+          </article>
+          <article class="featured-flavor">
+            <h3>Chai</h3>
+            <img src="images/chai.jpg" alt="chai">
+          </article>
+          <article class="featured-flavor">
+            <h3>Pumpkin</h3>
+            <img src="images/pumpkin.jpg" alt="pumpkin">
+          </article>
+          <article class="featured-flavor">
+            <h3>Apple pie</h3>
+            <img src="images/apple-pie.jpg" alt="apple pie">
+          </article>
+          <article class="featured-flavor">
+            <h3>Pistachio</h3>
+            <img src="images/pistachio.jpg" alt="pistachio">
+          </article>
+          <article class="featured-flavor">
+            <h3>Cinnamon Stick</h3>
+            <img src="images/cinnamon.jpg" alt="cinnamon">
+          </article>
+          <article class="featured-flavor">
+            <h3>Mayan Spice Chocolate</h3>
+            <img src="images/mayan-spice-chocolate.jpg" alt="mayan spice chocolate">
+          </article>
+          <article class="featured-flavor">
+            <h3>Caramel Apple</h3>
+            <img src="images/caramel-apple.jpg" alt="caramel apple">
+          </article>
+          <article class="featured-flavor">
+            <h3>Maple Bacon &amp; Waffle</h3>
+            <img src="images/maple-bacon-waffle.jpg" alt="maple bacon and waffle">
+          </article>
+          <article class="featured-flavor">
+            <h3>Sweet Potato Casserole</h3>
+            <img src="images/sweet-potato.jpg" alt="sweet potato casserole">
+          </article>
+          <article class="featured-flavor">
+            <h3>Beer and Nuts</h3>
+            <img src="images/beer-and-nuts.jpg" alt="beer and nuts">
+          </article>
+        </section>
+
+        <section class="contact-us">
+          <h2><span class="script">Hello</span> Contact</h2>
+          <p>Select a form below, fill it out and we will be in contact with you within 24 hours to answer your questions! In the meantime you can see what we are up to on our <a href="#">Facebook</a> and <a href="#">Instagram</a> pages.</p>
+            <a href="#">Inquiries</a>
+            <p>Have a general question for us? No worries - just fill out the simple form below and we will do our best to get back to you with a pretty darn good answer!</p>
+            <a href="#">Wholesale</a>
+            <p>We are proud to have our ice cream served at some of the finest restaurants in and around the Chattanooga area. If your business is interested in scooping the best ice cream around, please let us know!</p>
+            <a href="#">Catering</a>
+            <p>Clumpies would love to be at your next event! Provide some information below and we’ll get back to you as soon as possible with information and availability.</p>
+            <form action="#" method="post" class="contact">
+              <label for="name">Name*</label>
+              <input required type="text" id="name">
+
+              <label for="biz-name">Business Name, if applicable</label>
+              <input type="text" id="biz-name">
+
+              <label for="email">Email address*</label>
+              <input required type="email" id="email">
+
+              <label for="address">Address</label>
+              <input type="text" id="address">
+
+              <label for="city">City</label>
+              <input type="text" id="city">
+
+              <label for="state">State</label>
+              <input type="text" id="state">
+
+              <label for="zip">Zip</label>
+              <input type="number" id="zip">
+
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone">
+
+              <label for="comments">Question/Comment</label>
+              <input type="text" id="comments">
+
+              <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <footer>
+          <section>
+            <h3 class="visuallyhidden">Business Hours</h3>
+            <p>Open Today:</p>
+            <p>11:00am to 10:00pm</p>
+            <table id="biz-hours">
+              <tr>
+                <td>Sunday</td>
+                <td>11:00am to 10:00pm</td>
+              </tr>
+              <tr>
+                <td>Monday</td>
+                <td>11:00am to 10:00pm</td>
+              </tr>
+              <tr>
+                <td>Tuesday</td>
+                <td>11:00am to 10:00pm</td>
+              </tr>
+              <tr>
+                <td>Wednesday</td>
+                <td>11:00am to 10:00pm</td>
+              </tr>
+              <tr>
+                <td>Thursday</td>
+                <td>11:00am to 10:00pm</td>
+              </tr>
+              <tr>
+                <td>Friday</td>
+                <td>11:00am to 11:00pm</td>
+              </tr>
+              <tr>
+                <td>Saturday</td>
+                <td>11:00am to 11:00pm</td>
+              </tr>
+            </table>
+          </section>
+          <section>
+            <h3 class="visuallyhidden">Contact Info</h3>
+            <p>
+              26 Frazier Avenue<br>
+              Chattanooga, Tennessee 37405<br>
+              Phone<br>
+              423.267.5425<br>
+            </p>
+          </section>
+          <section>
+            <h3 class="visuallyhidden">Social Media</h3>
+            <ul>
+              <li><i class="fa fa-facebook"><span class="visuallyhidden">Facebook</span></i></li>
+              <li><i class="fa fa-instagram"><span class="visuallyhidden">Instagram</span></i></li>
+              <li><i class="fa fa-twitter"><span class="visuallyhidden">Twitter</span></i></li>
+            </ul>
+          </section>
+          <section>
+            <h3 class="visuallyhidden">Copyright Info</h3>
+            <p>&copy; 2014 Copyright Clumpies Ice Cream Co.</p>
+            <p>Website Design by Papercut Interactive.</p>
+          </section>
+          <img src="images/chalkboard.jpg" alt="Chalkboard Menu">
+        </footer>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
