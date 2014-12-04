@@ -5,4 +5,12 @@
     font-family: monospace;
     background-color: #eee;
   }
+  .sample-image {
+    display: block;
+    border: 1px solid #ddd;
+  }
+
+  &> *:last-child {
+    border: 1px solid #ddd;
+  }
 }
