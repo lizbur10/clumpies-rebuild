@@ -1,0 +1,27 @@
+.main-nav {
+  position: relative;
+  background-color: $brown-light;
+  width: 32em;
+  ul {
+    list-style-type: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 5em 0;
+  }
+  li {
+    line-height: .9;
+    padding: 1em 0;
+    letter-spacing: .125em;
+    font-weight: bold;
+    color: $brown-dark;
+    text-align: center;
+  }
+  li:hover {
+    color: $yellowish;
+  }
+  img.close-x {
+    position: absolute;
+    top: 2em;
+    right: 2em;
+  }
+}
