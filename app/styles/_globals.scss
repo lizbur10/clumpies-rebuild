@@ -1,0 +1,25 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: $white;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: $black;
+  max-width: 960 / 16 * 1em;
+  margin: 4em;
+}
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: $black;
+  padding: 0.2em 0;
+}
+
+img {
+  max-width: 100%;
+}
