@@ -1,7 +1,17 @@
 .featured-flavors {
+  width: 60%;
+  font-size: 1.2em;
+  font-weight: 300;
+  text-align: center;
+  .block {
+    font-family: $fontstack-block;
+    font-weight: 900;
+    font-size: 4.2rem;
+    color: $brown-dark;
+  }
   .script {
     font-family: $fontstack-script;
-    font-size: 2em;
+    font-size: 3.5rem;
     color: $brown-light;
   }
 }
