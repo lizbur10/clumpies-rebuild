@@ -1,0 +1,24 @@
+.page-header {
+  position: relative;
+  padding: 1em 0;
+  h1 {
+    @include visuallyhidden();
+  }
+  .logo {
+    display: block;
+    width: 5.25em;
+    margin: 0 auto;
+    padding-bottom: 0.2em;
+  }
+  .hamburger {
+    position: absolute;
+    top: 1.8em;
+    right: 3em;
+  }
+//The code for the drop-shadow border came from:  http://css-tricks.com/examples/hrs/
+  hr {
+    height: 4px;
+    border: 0;
+    box-shadow: inset 0 4px 4px -4px rgba(0,0,0,0.3);
+  }
+}

@@ -1,1 +1,1 @@
-console.log('\'Allo \'Allo!');
+$('.featured-flavor-block').imagefill();

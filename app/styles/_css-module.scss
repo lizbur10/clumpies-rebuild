@@ -1,4 +1,5 @@
 .css-module {
+  @include clearfix();
   margin-bottom: 6em;
   &> h2 {
     padding: .5em .25em;
@@ -10,7 +11,4 @@
     border: 1px solid #ddd;
   }
 
-  &> *:last-child {
-    border: 1px solid #ddd;
-  }
 }

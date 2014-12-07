@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.css" />
         <link rel="stylesheet" href="bower_components/normalize.css/normalize.css" />
         <!-- endbower -->
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Cookie|Alegreya+SC:400,700,900">
         <!-- endbuild -->
 
         <!-- build:css styles/main.css -->
@@ -44,9 +45,12 @@
           </nav>
         </header>
 
-        <section class="featured-flavors">
-          <h2><span class="script">Take a Look</span> Featured Flavors</h2>
-          <p>In addition to our classic flavors, Clumpies also offers rotating featured favorites throughout the year. These flavors change with the seasons, so follow us on <a href="#">Twitter</a>/<a href="#">Instagram</a> to stay up to date.</p>
+        <section>
+          <div class="info-block featured-flavors">
+            <p class="script"><span>Take a Look</span></p>
+            <h2 class="block">Featured Flavors</h2>
+            <p class="descriptive-text">In addition to our classic flavors, Clumpies also offers rotating featured favorites throughout the year. These flavors change with the seasons, so follow us on <a href="#">Twitter</a>/<a href="#">Instagram</a> to stay up to date.</p>
+          </div>
           <article class="featured-flavor-block">
             <h3>Mascarpone and Figs</h3>
             <img src="images/marscapogne-fig.jpg" alt="mascarpone and figs">
@@ -210,7 +214,11 @@
         <!-- build:js scripts/vendor.js -->
         <!-- bower:js -->
         <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/eventEmitter/EventEmitter.js"></script>
+        <script src="bower_components/eventie/eventie.js"></script>
+        <script src="bower_components/imagesloaded/imagesloaded.js"></script>
         <!-- endbower -->
+        <script src="bower_components/imagefill/js/jquery-imagefill.js"></script>
         <!-- endbuild -->
 
         <!-- build:js scripts/main.js -->
