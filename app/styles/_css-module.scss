@@ -1,4 +1,5 @@
 .css-module {
+  @include clearfix();
   margin-bottom: 6em;
   &> h2 {
     padding: .5em .25em;

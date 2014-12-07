@@ -11,14 +11,14 @@
   <!-- bower:css -->
   <link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.css" />
   <link rel="stylesheet" href="bower_components/normalize.css/normalize.css" />
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Cookie" />
-  <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Alegreya+SC:400,700,900' />
   <!-- endbower -->
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Cookie|Alegreya+SC:400,700,900">
   <!-- endbuild -->
 
   <!-- build:css styles/main.css -->
   <link rel="stylesheet" href="styles/main.css">
   <!-- endbuild -->
+
 
   <!-- build:js scripts/vendor/modernizr.js -->
   <script src="bower_components/modernizr/modernizr.js"></script>
@@ -37,7 +37,7 @@
 
   <!-- Page header section -->
   <div class="page-header">
-    <h1 class="visuallyhidden">Clumpies Ice Cream Co.</h1>
+    <h1>Clumpies Ice Cream Co.</h1>
     <img class="logo" src="images/logo-big.png" alt="logo">
     <img class="hamburger" src="images/hamburger-icon.png" alt="hamburger menu">
   </div>
@@ -88,8 +88,13 @@
   <!-- Featured flavor block -->
   <article class="featured-flavor-block">
     <h3>Mascarpone and Figs</h3>
-    <img src="images/marscapogne-fig.jpg" alt="mascarpone and figs">
+    <p><img src="images/marscapogne-fig.jpg" alt="mascarpone and figs"></p>
   </article>
+  <article class="featured-flavor-block">
+    <h3>Chai</h3>
+    <p><img src="images/chai.jpg" alt="chai"></p>
+  </article>
+
   <!-- End Featured Flavor block -->
 </div>
 
@@ -269,7 +274,11 @@
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
     <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/eventEmitter/EventEmitter.js"></script>
+    <script src="bower_components/eventie/eventie.js"></script>
+    <script src="bower_components/imagesloaded/imagesloaded.js"></script>
     <!-- endbower -->
+    <script src="bower_components/imagefill/js/jquery-imagefill.js"></script>
     <!-- endbuild -->
 
     <!-- build:js scripts/main.js -->

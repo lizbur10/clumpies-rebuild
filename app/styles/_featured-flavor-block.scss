@@ -1,0 +1,10 @@
+.featured-flavor-block {
+  width: 16em;
+  height: 16em;
+  float: left;
+  img {
+    max-width: none;
+    display: block;
+    z-index: -10;
+  }
+}
