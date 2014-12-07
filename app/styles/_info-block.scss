@@ -1,5 +1,5 @@
-.featured-flavors {
-  width: 52%;
+.info-block {
+  width: 53%;
   font-size: 1.1em;
   font-weight: 300;
   text-align: center;
@@ -11,15 +11,11 @@
     margin-top: 0;
     margin-bottom: 43px;
   }
-
-  //The coding for the decorative line thingies came from:
-  //http://stackoverflow.com/questions/5214127/css-technique-for-a-horizontal-line-with-words-in-the-middle
-
+//The code for the decorative line thingies came from:  //http://stackoverflow.com/questions/5214127/css-technique-for-a-horizontal-line-with-words-in-the-middle
   .script {
     font-family: $fontstack-script;
     font-size: 3.5rem;
     color: $brown-light;
-    width: 54%;
     text-align: center;
     border-bottom: 2px solid $brown-light;
     line-height: 0.1em;
@@ -29,7 +25,13 @@
       padding:0 0.25em;
     }
   }
-  .description {
+  &.featured-flavors .script {
+    width: 54%;
+  }
+  &.contact-us .script {
+    width: 26%;
+  }
+  .descriptive-text {
     letter-spacing: 0.0875em;
     line-height: 1.9em;
     a {

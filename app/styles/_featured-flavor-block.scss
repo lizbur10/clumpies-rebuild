@@ -3,11 +3,13 @@
   width: 16em;
   height: 16em;
   float: left;
-  background: rgba(75,27,27,.85);
   img {
     z-index: -10;
   }
+  //The code for vertically centering the h3's came from:
+  //http://css-tricks.com/examples/hrs/
   h3 {
+    display: none;
     font-family: $fontstack-block;
     font-size: 2rem;
     color: $cream;
@@ -21,5 +23,11 @@
     transform: translate(-50%, -50%);
     border-top: 2px solid $cream;
     border-bottom: 2px solid $cream;
+  }
+  &:hover {
+    background: rgba(75,27,27,.85);
+    h3 {
+      display: block;
+    }
   }
 }
