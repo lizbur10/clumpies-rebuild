@@ -5,7 +5,10 @@
   }
   li {
     float: left;
-    padding: 1.9em;
+    padding: 2em;
+    &:first-child {
+      padding-left: 1em;
+    }
     text-indent: -9999px;
     & a {
       display: block;

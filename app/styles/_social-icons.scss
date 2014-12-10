@@ -1,0 +1,28 @@
+.social-icons {
+  background-color: $brown-medium;
+  h3 {
+    @include visuallyhidden();
+  }
+  ul {
+    list-style-type: none;
+    padding-left: 18px;
+    span {
+      @include visuallyhidden();
+    }
+    li {
+      padding: 10px;
+      margin: 10px;
+      display: inline-block;
+      text-align: center;
+      font-size: 25px;
+      width: 56px;
+      height: 56px;
+      border: 1px solid;
+      border-radius: 30px;
+      -moz-border-radius: 25px;
+      -webkit-border-radius: 25px;
+      color: $brown-medium;
+      background-color: $cream;
+    }
+  }
+}

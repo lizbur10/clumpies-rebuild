@@ -1,0 +1,12 @@
+.copyright-info {
+  font-size: .7em;
+  letter-spacing: .0125em;
+  font-weight: 200;
+  text-align: center;
+  background-color: $brown-medium;
+  color: $cream;
+  padding: 5px;
+  h3 {
+    @include visuallyhidden();
+  }
+}

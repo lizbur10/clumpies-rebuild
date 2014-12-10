@@ -1,0 +1,30 @@
+.biz-hours {
+  padding: 0 1.25em;
+  height: 332px;
+  width: 364px;
+  background-color: $brown-medium;
+  color: $cream;
+  font-weight: 200;
+  h3 {
+    padding-top: 1em;
+    font-family: $fontstack-block;
+    font-size: 1.625em;
+    font-weight: 900;
+    letter-spacing: .025em;
+    margin-bottom: 0;
+  }
+  p {
+    font-size: 1.5em;
+    margin: 0;
+  }
+  td {
+    padding: 0 2.3em .5em 0;
+    letter-spacing: .013em;
+  }
+  hr {
+    height: 2px;
+    background-color: $brown-light;
+    border: 0;
+    margin: 1em 0 1.4em 0;
+  }
+}

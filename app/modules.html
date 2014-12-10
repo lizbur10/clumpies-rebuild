@@ -138,15 +138,15 @@
   <img class="sample-image" src="images/modules/contact-form-2.png" alt="contact form submit button" width="530">
 
   <!-- Contact Form -->
-  <form class="contact-form" action="#" method="post">
+  <form id="contact-form" action="#" method="post">
     <table>
       <tr>
         <td><label for="name">Name*</label></td>
         <td><label for="biz-name">Business Name, if applicable</label></td>
       </tr>
       <tr>
-        <td><input required type="text" name="name"></td>
-        <td><input type="text" name="biz-name"></td>
+        <td><input required type="text" id="name"></td>
+        <td><input type="text" id="biz-name"></td>
       </tr>
       <tr>
         <td><label for="email">Email address*</label></td>
@@ -154,8 +154,8 @@
       </tr>
 
       <tr>
-        <td><input required type="email" name="email"></td>
-        <td><input type="text" name="address"></td>
+        <td><input required type="email" id="email"></td>
+        <td><input type="text" id="address"></td>
       </tr>
 
       <tr>
@@ -164,8 +164,8 @@
       </tr>
 
       <tr>
-        <td><input type="text" name="state"></td>
-        <td><input type="text" name="city"></td>
+        <td><input type="text" id="state"></td>
+        <td><input type="text" id="city"></td>
       </tr>
 
       <tr>
@@ -174,15 +174,17 @@
       </tr>
 
       <tr>
-        <td><input type="text" name="zip"></td>
-        <td><input type="tel" name="phone"></td>
+        <td><input type="text" id="zip"></td>
+        <td><input type="tel" id="phone"></td>
       </tr>
 
       <tr>
         <td><label for="comments">Question/Comment</label></td>
+        <td></td>
       </tr>
       <tr>
-        <td><textarea rows="6" cols="44" name="question/comment" form="contact-form"></textarea></td>
+        <td><textarea rows="6" cols="44" id="comments" form="contact-form"></textarea></td>
+        <td></td>
       </tr>
     </table>
     <button type="submit">Submit</button>
@@ -198,6 +200,7 @@
   <section class="biz-hours">
     <h3>Open Today:</h3>
     <p>11:00am to 10:00pm</p>
+    <hr>
     <table id="biz-hours">
       <tr>
         <td>Sunday</td>
@@ -238,11 +241,11 @@
 
     <!-- Contact Info -->
     <section class="biz-contact-info">
-      <h3 class="visuallyhidden">Contact Info</h3>
+      <h3>Contact Info</h3>
       <p>
         26 Frazier Avenue<br>
         Chattanooga, Tennessee 37405<br>
-        Phone<br>
+        <span class="block">Phone<br></span>
         423.267.5425<br>
       </p>
     </section>
@@ -255,11 +258,11 @@
 
     <!-- Social Icons -->
     <section class="social-icons">
-      <h3 class="visuallyhidden">Social Media</h3>
+      <h3>Social Media</h3>
       <ul>
-        <li><i class="fa fa-facebook"><span class="visuallyhidden">Facebook</span></i></li>
-        <li><i class="fa fa-instagram"><span class="visuallyhidden">Instagram</span></i></li>
-        <li><i class="fa fa-twitter"><span class="visuallyhidden">Twitter</span></i></li>
+        <li><i class="fa fa-facebook"><span>Facebook</span></i></li>
+        <li><i class="fa fa-instagram"><span>Instagram</span></i></li>
+        <li><i class="fa fa-twitter"><span>Twitter</span></i></li>
       </ul>
     </section>
     <!-- End Social Icons -->
@@ -271,7 +274,7 @@
 
     <!--Copyright Info -->
     <section class="copyright-info">
-      <h3 class="visuallyhidden">Copyright Info</h3>
+      <h3>Copyright Info</h3>
       <p>&copy; 2014 Copyright Clumpies Ice Cream Co.</p>
       <p>Website Design by Papercut Interactive.</p>
     </section>
