@@ -1,6 +1,44 @@
 .contact-buttons {
-  img {
-    padding: 2em;
+  ul {
+    list-style-type: none;
+    margin-left: -2.2em;
   }
-  margin: 0 -.25em;
+  li {
+    float: left;
+    padding: 1.9em;
+    text-indent: -9999px;
+    & a {
+      display: block;
+      height: 64px;
+    }
+    &#inquiries a {
+      width: 361px;
+      background: url(../images/inquiries-button.png) bottom center no-repeat;
+      &:hover {
+        background-position: top;
+      }
+    }
+    &#wholesale a {
+      width: 360px;
+      background: url(../images/wholesale-button.png) top center no-repeat;
+      &:hover {
+        background-position: bottom;
+      }
+    }
+    &#catering a {
+      width: 361px;
+      background: url(../images/catering-button.png) top center no-repeat;
+      &:hover {
+        background-position: bottom;
+      }
+    }
+  }
+  p {
+    max-width: 750px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    line-height: 1.9em;
+    font-style: italic;
+    font-size: 1.1em;
+  }
 }

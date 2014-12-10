@@ -120,11 +120,15 @@
 
   <!-- Contact Buttons -->
   <div class="contact-buttons">
-    <a href="#"><img src="images/inquiries-button.png" alt="inquiries button"></a>
-    <a href="#"><img src="images/wholesale-button.png" alt="wholesale button"></a>
-    <a href="#"><img src="images/catering-button.png" alt="catering button"></a>
-    <p>Have a general question for us? No worries - just fill out the simple form below and we will do our best to get back to you with a pretty darn good answer!</p>
-  </div>
+    <nav>
+      <ul>
+        <li id="inquiries"><a href="#">Inquiries</a></li>
+        <li id="wholesale"><a href="#">Wholesale</a></li>
+        <li id="catering"><a href="#">Catering</a></li>
+      </ul>
+    </nav>
+      <p>Have a general question for us? No worries - just fill out the simple form below and we will do our best to get back to you with a pretty darn good answer!</p>
+</div>
   <!-- end Contact Buttons -->
 </div>
 
@@ -135,33 +139,52 @@
 
   <!-- Contact Form -->
   <form class="contact-form" action="#" method="post">
-    <label for="name">Name*</label>
-    <input required type="text" id="name">
+    <table>
+      <tr>
+        <td><label for="name">Name*</label></td>
+        <td><label for="biz-name">Business Name, if applicable</label></td>
+      </tr>
+      <tr>
+        <td><input required type="text" name="name"></td>
+        <td><input type="text" name="biz-name"></td>
+      </tr>
+      <tr>
+        <td><label for="email">Email address*</label></td>
+        <td><label for="address">Address</label></td>
+      </tr>
 
-    <label for="biz-name">Business Name, if applicable</label>
-    <input type="text" id="biz-name">
+      <tr>
+        <td><input required type="email" name="email"></td>
+        <td><input type="text" name="address"></td>
+      </tr>
 
-    <label for="email">Email address*</label>
-    <input required type="email" id="email">
+      <tr>
+        <td><label for="city">City</label></td>
+        <td><label for="state">State</label></td>
+      </tr>
 
-    <label for="address">Address</label>
-    <input type="text" id="address">
+      <tr>
+        <td><input type="text" name="state"></td>
+        <td><input type="text" name="city"></td>
+      </tr>
 
-    <label for="city">City</label>
-    <input type="text" id="city">
+      <tr>
+        <td><label for="zip">Zip</label></td>
+        <td><label for="phone">Phone Number</label></td>
+      </tr>
 
-    <label for="state">State</label>
-    <input type="text" id="state">
+      <tr>
+        <td><input type="text" name="zip"></td>
+        <td><input type="tel" name="phone"></td>
+      </tr>
 
-    <label for="zip">Zip</label>
-    <input type="number" id="zip">
-
-    <label for="phone">Phone Number</label>
-    <input type="tel" id="phone">
-
-    <label for="comments">Question/Comment</label>
-    <input type="text" id="comments">
-
+      <tr>
+        <td><label for="comments">Question/Comment</label></td>
+      </tr>
+      <tr>
+        <td><textarea rows="6" cols="44" name="question/comment" form="contact-form"></textarea></td>
+      </tr>
+    </table>
     <button type="submit">Submit</button>
   </form>
   <!-- End contact form -->
