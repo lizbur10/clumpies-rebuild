@@ -1,0 +1,28 @@
+.page-footer {
+  position: relative;
+  margin-top: 50px;
+  border-top: 7px solid $brown-light;
+  .chalkboard img {
+    width: 426px;
+    border-bottom: 7px solid $brown-medium;
+  }
+  #logo {
+    width: 192px;
+    position: absolute;
+    left: 545px;
+    top: -48px;
+  }
+  section {
+    float: left;
+  }
+  h2 {
+    @include visuallyhidden();
+  }
+  hr {
+    height: 2px;
+    background-color: $brown-light;
+    border: 0;
+    margin: 1em 0 .4em 0;
+  }
+
+}
