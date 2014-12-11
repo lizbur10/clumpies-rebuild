@@ -5,7 +5,9 @@
   text-align: center;
   background-color: $brown-medium;
   color: $cream;
+  margin-top: -20px;
   padding: 5px;
+  padding-left: 70px;
   h3 {
     @include visuallyhidden();
   }
