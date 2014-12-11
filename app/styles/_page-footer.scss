@@ -2,9 +2,10 @@
   position: relative;
   margin-top: 50px;
   border-top: 7px solid $brown-light;
+  height: 440px;
+  background: $brown-medium;
   .chalkboard img {
     width: 426px;
-    border-bottom: 7px solid $brown-medium;
   }
   #logo {
     width: 192px;
@@ -18,11 +19,4 @@
   h2 {
     @include visuallyhidden();
   }
-  hr {
-    height: 2px;
-    background-color: $brown-light;
-    border: 0;
-    margin: 1em 0 .4em 0;
-  }
-
 }
