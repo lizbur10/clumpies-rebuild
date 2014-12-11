@@ -12,10 +12,9 @@
   <link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.css" />
   <link rel="stylesheet" href="bower_components/normalize.css/normalize.css" />
   <!-- endbower -->
-  <!-- endbuild -->
-
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Cookie">
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Alegreya+SC:400,700,900">
+  <!-- endbuild -->
 
   <!-- build:css styles/main.css -->
   <link rel="stylesheet" href="styles/main.css">
@@ -120,15 +119,11 @@
 
   <!-- Contact Buttons -->
   <div class="contact-buttons">
-    <nav>
-      <ul>
-        <li id="inquiries"><a href="#">Inquiries</a></li>
-        <li id="wholesale"><a href="#">Wholesale</a></li>
-        <li id="catering"><a href="#">Catering</a></li>
-      </ul>
-    </nav>
-      <p>Have a general question for us? No worries - just fill out the simple form below and we will do our best to get back to you with a pretty darn good answer!</p>
-</div>
+    <a href="#">Inquiries</a>
+    <a href="#">Wholesale</a>
+    <a href="#">Catering</a>
+    <p>Have a general question for us? No worries - just fill out the simple form below and we will do our best to get back to you with a pretty darn good answer!</p>
+  </div>
   <!-- end Contact Buttons -->
 </div>
 
@@ -138,135 +133,134 @@
   <img class="sample-image" src="images/modules/contact-form-2.png" alt="contact form submit button" width="530">
 
   <!-- Contact Form -->
-  <form id="contact-form" action="#" method="post">
-    <table>
-      <tr>
-        <td><label for="name">Name*</label></td>
-        <td><label for="biz-name">Business Name, if applicable</label></td>
-      </tr>
-      <tr>
-        <td><input required type="text" id="name"></td>
-        <td><input type="text" id="biz-name"></td>
-      </tr>
-      <tr>
-        <td><label for="email">Email address*</label></td>
-        <td><label for="address">Address</label></td>
-      </tr>
+  <form class="contact-form" action="#" method="post">
+    <label for="name">Name*</label>
+    <input required type="text" id="name">
 
-      <tr>
-        <td><input required type="email" id="email"></td>
-        <td><input type="text" id="address"></td>
-      </tr>
+    <label for="biz-name">Business Name, if applicable</label>
+    <input type="text" id="biz-name">
 
-      <tr>
-        <td><label for="city">City</label></td>
-        <td><label for="state">State</label></td>
-      </tr>
+    <label for="email">Email address*</label>
+    <input required type="email" id="email">
 
-      <tr>
-        <td><input type="text" id="state"></td>
-        <td><input type="text" id="city"></td>
-      </tr>
+    <label for="address">Address</label>
+    <input type="text" id="address">
 
-      <tr>
-        <td><label for="zip">Zip</label></td>
-        <td><label for="phone">Phone Number</label></td>
-      </tr>
+    <label for="city">City</label>
+    <input type="text" id="city">
 
-      <tr>
-        <td><input type="text" id="zip"></td>
-        <td><input type="tel" id="phone"></td>
-      </tr>
+    <label for="state">State</label>
+    <input type="text" id="state">
 
-      <tr>
-        <td><label for="comments">Question/Comment</label></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><textarea rows="6" cols="44" id="comments" form="contact-form"></textarea></td>
-        <td></td>
-      </tr>
-    </table>
+    <label for="zip">Zip</label>
+    <input type="number" id="zip">
+
+    <label for="phone">Phone Number</label>
+    <input type="tel" id="phone">
+
+    <label for="comments">Question/Comment</label>
+    <input type="text" id="comments">
+
     <button type="submit">Submit</button>
   </form>
   <!-- End contact form -->
 </div>
+
+<div class="css-module">
+  <h2>.biz-hours</h2>
+  <img class="sample-image" src="images/modules/biz-hours.png" alt="business hours" width="357">
+
+  <!-- Business Hours -->
+  <section class="biz-hours">
+    <h3>Open Today:</h3>
+    <p>11:00am to 10:00pm</p>
+    <table id="biz-hours">
+      <tr>
+        <td>Sunday</td>
+        <td>11:00am to 10:00pm</td>
+      </tr>
+      <tr>
+        <td>Monday</td>
+        <td>11:00am to 10:00pm</td>
+      </tr>
+      <tr>
+        <td>Tuesday</td>
+        <td>11:00am to 10:00pm</td>
+      </tr>
+      <tr>
+        <td>Wednesday</td>
+        <td>11:00am to 10:00pm</td>
+      </tr>
+      <tr>
+        <td>Thursday</td>
+        <td>11:00am to 10:00pm</td>
+      </tr>
+      <tr>
+        <td>Friday</td>
+        <td>11:00am to 11:00pm</td>
+      </tr>
+      <tr>
+        <td>Saturday</td>
+        <td>11:00am to 11:00pm</td>
+      </tr>
+    </table>
+  </section>
+  <!-- End Business Hours -->
+</div>
+
+  <div class="css-module">
+    <h2>.biz-contact-info</h2>
+    <img class="sample-image" src="images/modules/location.png" alt="location" width="368">
+
+    <!-- Contact Info -->
+    <section class="biz-contact-info">
+      <h3 class="visuallyhidden">Contact Info</h3>
+      <p>
+        26 Frazier Avenue<br>
+        Chattanooga, Tennessee 37405<br>
+        Phone<br>
+        423.267.5425<br>
+      </p>
+    </section>
+    <!-- End Contact Info -->
+  </div>
+
+  <div class="css-module">
+    <h2>.social-icons</h2>
+    <img class="sample-image" src="images/modules/social-icons.png" alt="social icons" width="264">
+
+    <!-- Social Icons -->
+    <section class="social-icons">
+      <h3 class="visuallyhidden">Social Media</h3>
+      <ul>
+        <li><i class="fa fa-facebook"><span class="visuallyhidden">Facebook</span></i></li>
+        <li><i class="fa fa-instagram"><span class="visuallyhidden">Instagram</span></i></li>
+        <li><i class="fa fa-twitter"><span class="visuallyhidden">Twitter</span></i></li>
+      </ul>
+    </section>
+    <!-- End Social Icons -->
+  </div>
+
+  <div class="css-module">
+    <h2>.copyright-info</h2>
+    <img class="sample-image" src="images/modules/copyright-info.png" alt="copyright info" width="235">
+
+    <!--Copyright Info -->
+    <section class="copyright-info">
+      <h3 class="visuallyhidden">Copyright Info</h3>
+      <p>&copy; 2014 Copyright Clumpies Ice Cream Co.</p>
+      <p>Website Design by Papercut Interactive.</p>
+    </section>
+    <!--End copyright info -->
+  </div>
 
   <div class="css-module">
     <h2>.page-footer</h2>
     <img class="sample-image" src="images/modules/footer.png" alt="footer" width="1276">
 
     <!--Footer -->
-    <footer class="page-footer">
-      <img id="logo" src="images/logo-big.png" alt="Clumpies logo">
-      <section class="biz-hours">
-        <h3>Open Today:</h3>
-        <p>11:00am to 10:00pm</p>
-        <hr>
-        <table id="biz-hours">
-          <tr>
-            <td>Sunday</td>
-            <td>11:00am to 10:00pm</td>
-          </tr>
-          <tr>
-            <td>Monday</td>
-            <td>11:00am to 10:00pm</td>
-          </tr>
-          <tr>
-            <td>Tuesday</td>
-            <td>11:00am to 10:00pm</td>
-          </tr>
-          <tr>
-            <td>Wednesday</td>
-            <td>11:00am to 10:00pm</td>
-          </tr>
-          <tr>
-            <td>Thursday</td>
-            <td>11:00am to 10:00pm</td>
-          </tr>
-          <tr>
-            <td>Friday</td>
-            <td>11:00am to 11:00pm</td>
-          </tr>
-          <tr>
-            <td>Saturday</td>
-            <td>11:00am to 11:00pm</td>
-          </tr>
-        </table>
-      </section>
-
-    <section class="footer-column-2">
-      <h2>Contact Stuff</h2>
-      <div class="biz-contact-info">
-        <h3>Contact Info</h3>
-          26 Frazier Avenue<br>
-          Chattanooga, Tennessee 37405<br>
-          <span class="block">Phone<br></span>
-          423.267.5425<br>
-      </div>
-
-      <div class="social-icons">
-        <h3>Social Media</h3>
-        <hr>
-        <ul>
-          <li><i class="fa fa-facebook"><span>Facebook</span></i></li>
-          <li><i class="fa fa-instagram"><span>Instagram</span></i></li>
-          <li><i class="fa fa-twitter"><span>Twitter</span></i></li>
-        </ul>
-      </div>
-
-      <div class="copyright-info">
-        <h3>Copyright Info</h3>
-        <p>&copy; 2014 Copyright Clumpies Ice Cream Co.</p>
-        <p>Website Design by Papercut Interactive.</p>
-      </div>
-    </section>
-
-    <section class="chalkboard">
-      <h2>Chalkboard</h2>
-      <img src="images/chalkboard.jpg" alt="Chalkboard Menu">
-    </section>
-    </footer>
+    <img src="images/logo-big.png" alt="Clumpies logo">
+    <img src="images/chalkboard.jpg" alt="Chalkboard Menu">
     <!--End footer -->
   </div>
 
