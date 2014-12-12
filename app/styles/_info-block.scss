@@ -1,7 +1,7 @@
 .info-block {
-  max-width: 680px;
-  font-size: 1.1em;
-  font-weight: 300;
+  max-width: 675px;
+  font-size: 1.05em;
+  font-weight: 400;
   text-align: center;
   color: $brown-dark;
   .block {
@@ -32,14 +32,14 @@
     width: 26%;
   }
   .descriptive-text {
-    letter-spacing: 0.0875em;
+    letter-spacing: 0.08em;
     line-height: 1.9em;
     a {
       text-decoration: none;
       font-size: 1.15em;
-      font-weight: 900;
-      color: $red;
+      font-family: $fontstack-text-bold;
       letter-spacing: 0;
+      color: $red;
     }
   }
 }
