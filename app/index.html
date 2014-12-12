@@ -16,6 +16,8 @@
 
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Cookie">
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Alegreya+SC:400,700,900">
+        <link href='http://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
 
         <!-- build:css styles/main.css -->
         <link rel="stylesheet" href="styles/main.css">
@@ -30,9 +32,14 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <header class="page-header">
-          <h1>Clumpies Ice Cream Co.</h1>
-          <img src="images/logo-big.png" alt="logo">
+        <header>
+          <div class="page-header">
+            <h1>Clumpies Ice Cream Co.</h1>
+            <img class="logo" src="images/logo-big.png" alt="logo">
+            <img class="hamburger" src="images/hamburger-icon.png" alt="hamburger menu">
+            <hr>
+          </div>
+
           <nav class="main-nav">
             <ul>
               <li><a href="">Flavors</a></li>
@@ -177,12 +184,12 @@
           <button type="submit">Submit</button>
         </form>
 
+        <!--Footer -->
         <footer class="page-footer">
-          <img src="images/logo-big.png" alt="Clumpies logo">
+          <img id="logo" src="images/logo-big.png" alt="Clumpies logo">
           <section class="biz-hours">
             <h3>Open Today:</h3>
             <p>11:00am to 10:00pm</p>
-            <hr>
             <table id="biz-hours">
               <tr>
                 <td>Sunday</td>
@@ -215,33 +222,40 @@
             </table>
           </section>
 
-          <section class="biz-contact-info">
-            <h3>Contact Info</h3>
-            <p>
+          <section class="footer-column-2">
+            <h2>Contact Stuff</h2>
+            <div class="biz-contact-info">
+              <h3>Contact Info</h3>
               26 Frazier Avenue<br>
               Chattanooga, Tennessee 37405<br>
               <span class="block">Phone<br></span>
               423.267.5425<br>
-            </p>
+            </div>
+
+            <div class="social-icons">
+              <h3>Social Media</h3>
+              <ul>
+                <li><i class="fa fa-facebook"><span>Facebook</span></i></li>
+                <li><i class="fa fa-instagram"><span>Instagram</span></i></li>
+                <li><i class="fa fa-twitter"><span>Twitter</span></i></li>
+              </ul>
+            </div>
+
+            <div class="copyright-info">
+              <h3>Copyright Info</h3>
+              <p>&copy; 2014 Copyright Clumpies Ice Cream Co.</p>
+              <p>Website Design by Papercut Interactive.</p>
+            </div>
           </section>
 
-          <section class="social-icons">
-            <h3>Social Media</h3>
-            <ul>
-              <li><i class="fa fa-facebook"><span>Facebook</span></i></li>
-              <li><i class="fa fa-instagram"><span>Instagram</span></i></li>
-              <li><i class="fa fa-twitter"><span>Twitter</span></i></li>
-            </ul>
+          <section class="chalkboard">
+            <h2>Chalkboard</h2>
+            <img src="images/chalkboard.jpg" alt="Chalkboard Menu">
           </section>
-
-          <section class="copyright-info">
-            <h3>Copyright Info</h3>
-            <p>&copy; 2014 Copyright Clumpies Ice Cream Co.</p>
-            <p>Website Design by Papercut Interactive.</p>
-          </section>
-          <img src="images/chalkboard.jpg" alt="Chalkboard Menu">
         </footer>
-
+        <!--End footer -->
+      </div>
+      
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
