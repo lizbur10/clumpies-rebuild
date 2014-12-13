@@ -6,11 +6,11 @@ html {
 }
 
 body {
+  position: relative;
   background: url(../images/texture.png);
   font-family: $fontstack-text;
   font-weight: 300;
   color: $black;
-  margin: 0 auto; //WHY ISN'T THIS WORKING???
 }
 
 .browsehappy {

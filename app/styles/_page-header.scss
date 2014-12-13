@@ -1,6 +1,13 @@
 .page-header {
-  position: relative;
-  padding: 1em 0;
+  padding-top: 0;
+  position: fixed;
+  z-index: 9998;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: url(../images/texture.png);
+  background-color: $white;
+  height: 57px;
   h1 {
     @include visuallyhidden();
   }
@@ -8,14 +15,57 @@
     display: block;
     width: 5.25em;
     margin: 0 auto;
-    padding-bottom: 0.2em;
+    padding: 0.45em 0 0.2em 0;
   }
   .hamburger {
     position: absolute;
-    top: 1.8em;
+    top: 1.3em;
     right: 3em;
+    .main-nav {
+      display: none;
+      position: absolute;
+      top: -1.8em;
+      right: -3em;
+      background-color: $brown-light;
+      width: 32em;
+      z-index: 9999;
+      ul {
+        list-style-type: none;
+        text-transform: uppercase;
+        font-size: 21px;
+        padding: 6em 0 4.7em 0;
+      }
+      li {
+        font-family: $fontstack-text-bold;
+        line-height: .9;
+        padding: 1em 0;
+        letter-spacing: .125em;
+        text-align: center;
+      }
+      a {
+        color: $brown-dark;
+        text-decoration: none;
+        &:hover {
+          color: $yellowish;
+        }
+      }
+      img.close-x {
+        position: absolute;
+        top: 2.5em;
+        right: 2.2em;
+      }
+    }
+
+      &:hover {
+      border: 1px solid red;
+      & .main-nav {
+        display: initial;
+      }
+    }
   }
-//The code for the drop-shadow border came from:  http://css-tricks.com/examples/hrs/
+
+
+  //The code for the drop-shadow border came from:  http://css-tricks.com/examples/hrs/
   hr {
     height: 4px;
     border: 0;

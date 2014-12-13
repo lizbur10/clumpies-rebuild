@@ -1,11 +1,11 @@
 .contact-buttons {
   ul {
     list-style-type: none;
-    margin-left: -2.2em;
+    margin: 0 0 0 -1.2em;
   }
   li {
     float: left;
-    padding: 2em;
+    padding: 1em 2em;
     &:first-child {
       padding-left: 1em;
     }
@@ -35,13 +35,5 @@
         background-position: bottom;
       }
     }
-  }
-  p {
-    max-width: 730px;
-    text-align: center;
-    letter-spacing: 0.05em;
-    line-height: 1.9em;
-    font-style: italic;
-    font-size: 1.1em;
   }
 }
