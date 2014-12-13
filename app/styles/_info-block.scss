@@ -1,6 +1,5 @@
 .info-block {
   margin: 0 auto;
-  max-width: 675px;
   font-size: 1.05em;
   font-weight: 400;
   text-align: center;
@@ -28,14 +27,39 @@
     }
   }
   &.featured-flavors {
-    margin-top: 200px;
+    max-width: 675px;
+    margin-top: 175px;
   }
   &.featured-flavors .script {
     width: 54%;
   }
+  &.contact-us {
+    max-width: 675px;
+  }
   &.contact-us .script {
     margin-top: 130px;
     width: 26%;
+  }
+  &.our-process {
+    img {
+      width: 640px;
+      margin: 0;
+      float: left;
+    }
+    .our-process-text {
+      max-width: 511px;
+      margin: 75px 62px;
+      float: right;
+    }
+    .script {
+     width: 78%;
+    }
+    h2 {
+      margin-bottom: 0;
+    }
+    p {
+      margin-top: 0;
+    }
   }
   .descriptive-text {
     letter-spacing: 0.08em;
