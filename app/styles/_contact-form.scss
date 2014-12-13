@@ -1,16 +1,18 @@
 #contact-form {
-  width: 768px;
+  @include clearfix();
+  width: 780px;
+  margin: 0 auto;
   td {
-    padding: 0 2px 16px 19px;
+    padding: 0 2px 18px 19px;
     & input {
       margin-bottom: 6px;
     }
   }
 
   input,textarea {
-    width: 356px;
+    width: 360px;
     height: 44px;
-    border: 1.5px solid $yellowish-dark;
+    border: 1px solid $yellowish-dark;
     padding-top: 16px;
   }
   textarea {
@@ -31,10 +33,20 @@
     font-size: 2rem;
     letter-spacing: .125em;
     border: none;
-    margin: 10px auto;
+    margin: 10px auto 60px auto;
     &:hover {
       background-color: $brown-light;
       color: $brown-dark;
     }
   }
+  p {
+    max-width: 730px;
+    margin: 10px auto 36px auto;
+    text-align: center;
+    letter-spacing: 0.05em;
+    line-height: 1.9em;
+    font-style: italic;
+    font-size: 1.1em;
+  }
+
 }
