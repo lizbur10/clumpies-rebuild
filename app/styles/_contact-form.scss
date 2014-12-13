@@ -1,22 +1,22 @@
 #contact-form {
   @include clearfix();
-  width: 780px;
+  width: 48.75em;
   margin: 0 auto;
   td {
-    padding: 0 2px 18px 19px;
+    padding: 0 .125em 1.125em 1.1875em;
     & input {
-      margin-bottom: 6px;
+      margin-bottom: 0.375em;
     }
   }
 
   input,textarea {
-    width: 360px;
-    height: 44px;
+    width: 22.5em;
+    height: 2.75em;
     border: 1px solid $yellowish-dark;
-    padding-top: 16px;
+    padding-top: 1em;
   }
   textarea {
-    height: 120px;
+    height: 7.5em;
     &:hover {
       background: $yellowish;
     }
@@ -24,29 +24,29 @@
   button {
     display: block;
     background-color: $red;
-    height: 72px;
-    width: 192px;
+    height: 4.5rem;
+    width: 12rem;
     font-family: $fontstack-block;
     color: $white;
     text-align: center;
     font-weight: 900;
-    font-size: 2rem;
-    letter-spacing: .125em;
+    font-size: 1.8em;
+    letter-spacing: .1rem;
     border: none;
-    margin: 10px auto 60px auto;
+    margin: .625rem auto 3.75rem auto;
     &:hover {
       background-color: $brown-light;
       color: $brown-dark;
     }
   }
   p {
-    max-width: 730px;
-    margin: 10px auto 36px auto;
+    max-width: 41em;
+    margin: .625rem auto 2.25rem auto;
     text-align: center;
     letter-spacing: 0.05em;
     line-height: 1.9em;
     font-style: italic;
-    font-size: 1.1em;
+    font-size: 1.15em;
   }
 
 }

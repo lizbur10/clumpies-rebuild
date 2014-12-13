@@ -7,10 +7,10 @@
   .block {
     font-family: $fontstack-block;
     font-weight: 900;
-    font-size: 4.2rem;
+    font-size: 4.2em;
     margin-top: 0;
-    margin-bottom: 32px;
-    line-height: 1.75em;
+    margin-bottom: 2rem;
+    line-height: 7rem;
   }
 //The code for the decorative line thingies came from:  //http://stackoverflow.com/questions/5214127/css-technique-for-a-horizontal-line-with-words-in-the-middle
   .script {
@@ -20,39 +20,40 @@
     text-align: center;
     border-bottom: 2px solid $brown-light;
     line-height: 0.1em;
-    margin: 30px auto 0;
+    margin: 1.875rem auto 0;
      span {
-      background:#fff;
+      background: url(../images/texture.png);
+      background-color: $white;
       padding:0 0.25em;
     }
   }
   &.featured-flavors {
-    max-width: 675px;
-    margin-top: 175px;
+    max-width: 41.5em;
+    margin-top: 11em;
   }
   &.featured-flavors .script {
     width: 54%;
   }
   &.contact-us {
-    max-width: 675px;
+    max-width: 40em;
   }
   &.contact-us .script {
-    margin-top: 130px;
+    margin-top: 8.125rem;
     width: 26%;
   }
   &.our-process {
     img {
-      width: 640px;
+      width: 40rem;
       margin: 0;
       float: left;
     }
     .our-process-text {
-      max-width: 511px;
-      margin: 75px 62px;
+      max-width: 31.9375rem;
+      margin: 4.6875rem 3.875rem;
       float: right;
     }
     .script {
-     width: 78%;
+     width: 100%;
     }
     h2 {
       margin-bottom: 0;
@@ -63,8 +64,8 @@
   }
   .descriptive-text {
     letter-spacing: 0.08em;
-    line-height: 2em;
-    margin-bottom: 40px;
+    line-height: 2.1em;
+    margin-bottom: 2.5em;
     a {
       text-decoration: none;
       font-size: 1.15em;
