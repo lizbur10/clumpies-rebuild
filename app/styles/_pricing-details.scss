@@ -5,15 +5,20 @@
   height: 16.5rem;
   color: $white;
   font-family: $fontstack-text;
-  font-size: 1.1em;
   text-align: center;
   letter-spacing: .08em;
   line-height: 1.8em;
+  .descriptive-text {
+    @include descriptive-text();
+    font-size: 1.1em;
+    margin-top: -3em;
+    padding: 0 1em;
+  }
   h3 {
-    font-family: $fontstack-block;
-    font-weight: 900;
+    @include heading-block();
     font-size: 1.8em;
-    margin: 1.625rem 0;
+    color: $white;
+    margin-top: -0.625rem;
   }
   .box {
     width: 94%;
