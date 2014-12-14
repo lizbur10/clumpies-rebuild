@@ -25,6 +25,7 @@
     border-bottom: 2px solid $cream;
   }
   &:hover {
+    cursor: pointer;
     background: rgba(75,27,27,.85);
     h3 {
       display: block;

@@ -27,7 +27,11 @@
       padding:0 0.25em;
     }
   }
+  &.classic-flavors {
+    margin-top: 11em;
+  }
   &.featured-flavors {
+    @include clearfix();
     max-width: 41.5em;
     margin-top: 11em;
   }

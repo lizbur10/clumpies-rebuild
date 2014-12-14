@@ -1,32 +1,53 @@
 .classic-flavors {
-  margin: 0 32px;
-  h2 {
-    @include visuallyhidden();
+  margin: 11em 0 0 0;
+  .block {
+    @include heading-block();
   }
+  h2.block {
+    margin-bottom: 0;
+  }
+  .script {
+    @include heading-script();
+    width: 18%;
+  }
+  .descriptive-text {
+    @include descriptive-text();
+    margin-top: 3em;
+  }
+
   div.classic-flavor-block {
-      margin-bottom: 136px;
-      width: 256px;
+      height: 34.375em;
+      width: 16em;
+      float: left;
+      margin: 0 2em;
+      &:last-child {
+        height: 40.625em;
+      }
     div.flavor-description {
-      width: 226px;
-      margin: 0 15px;
+      width: 14.125em;
+      margin: 0 0.9375em;
       text-align: center;
     }
     h3.block {
+      margin-top: 1em;
       margin-bottom: 0;
-      padding: 5px 0;
-      border-top: 1.5px solid $brown-dark;
-      border-bottom: 1.5px solid $brown-dark;
+      padding: .25em 0;
+      border-top: 2px solid $brown-dark;
+      border-bottom: 2px solid $brown-dark;
       font-family: $fontstack-block;
       font-weight: 900;
       color: $red;
       font-size: 1.85em;
+      line-height: 1.2em;
     }
-    p {
+    p.flavor-description {
       display: none;
-      margin-top: 0;
-      padding-bottom: 16px;
-      font-size: 1em;
-      border-bottom: 1.5px solid $brown-light;
+      margin: .125rem .2rem;
+      padding-bottom: 1rem;
+      font-size: .9em;
+      line-height: 1.2rem;
+      letter-spacing: .05rem;
+      border-bottom: 2px solid $brown-light;
     }
   }
 
@@ -38,17 +59,18 @@
     -ms-transition: all .5s ease-in-out;
   }
   div.classic-flavor-block:hover {
+    cursor: pointer;
     img {
       -webkit-transform: rotate(15deg);
       -moz-transform: rotate(15deg);
       -o-transform: rotate(15deg);
       -ms-transform: rotate(15deg);
     }
-    p {
+    p.flavor-description {
       display: block;
     }
     h3.block {
-      border-top: 1.5px solid $brown-light;
+      border-top: 2px solid $brown-light;
       border-bottom: none;
       color: $brown-light;
     }
