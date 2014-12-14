@@ -1,286 +1,450 @@
 <!doctype html>
 <html class="no-js">
-    <head>
-        <meta charset="utf-8">
-        <title>clumpies rebuild</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <head>
+      <meta charset="utf-8">
+      <title>clumpies rebuild</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-        <!-- build:css styles/vendor.css -->
-        <!-- bower:css -->
-        <link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.css" />
-        <link rel="stylesheet" href="bower_components/normalize.css/normalize.css" />
-        <!-- endbower -->
-        <!-- endbuild -->
+      <!-- build:css styles/vendor.css -->
+      <!-- bower:css -->
+      <link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.css" />
+      <link rel="stylesheet" href="bower_components/normalize.css/normalize.css" />
+      <!-- endbower -->
+      <!-- endbuild -->
 
-        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Cookie">
-        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Alegreya+SC:400,700,900">
-        <link href='http://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Cookie">
+      <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Alegreya+SC:400,700,900">
+      <link href='http://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
 
-        <!-- build:css styles/main.css -->
-        <link rel="stylesheet" href="styles/main.css">
-        <!-- endbuild -->
+      <!-- build:css styles/main.css -->
+      <link rel="stylesheet" href="styles/main.css">
+      <!-- endbuild -->
 
-        <!-- build:js scripts/vendor/modernizr.js -->
-        <script src="bower_components/modernizr/modernizr.js"></script>
-        <!-- endbuild -->
-    </head>
-    <body>
-        <!--[if lt IE 10]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+      <!-- build:js scripts/vendor/modernizr.js -->
+      <script src="bower_components/modernizr/modernizr.js"></script>
+      <!-- endbuild -->
+  </head>
 
-        <header>
-          <div class="page-header">
-            <h1>Clumpies Ice Cream Co.</h1>
-            <div id="fixed-items">
-              <img class="logo" src="images/logo-big.png" alt="logo">
-              <div class="hamburger">
-                <img src="images/hamburger-icon.png" alt="hamburger menu">
-                <nav class="main-nav">
-                  <ul>
-                    <li><a href="">Flavors</a></li>
-                    <li><a href="">Our Process</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Location</a></li>
-                    <li><a href="">Partners</a></li>
-                    <li><a href="">Clumpie's Cart</a></li>
-                    <li><a href="">Wholesale</a></li>
-                    <li><a href="">Contact</a></li>
-                  </ul>
-                  <a href=""><img class="close-x" src="images/close-x.png" alt="close x"></a>
-                </nav>
-              </div>
-            </div>
-            <hr>
-          </div>
-        </header>
 
-        <section>
-          <div class="info-block featured-flavors">
-            <p class="script"><span>Take a Look</span></p>
-            <h2 class="block">Featured Flavors</h2>
-            <p class="descriptive-text">In addition to our classic flavors, Clumpies also offers rotating featured favorites throughout the year. These flavors change with the seasons, so follow us on <a href="#">Twitter</a>/<a href="#">Instagram</a> to stay up to date.</p>
-          </div>
-          <article class="featured-flavor-block">
-            <h3>Mascarpone and Figs</h3>
-            <img src="images/marscapogne-fig.jpg" alt="mascarpone and figs">
-          </article>
-          <article class="featured-flavor-block">
-            <h3>Chai</h3>
-            <img src="images/chai.jpg" alt="chai">
-          </article>
-          <article class="featured-flavor-block">
-            <h3>Pumpkin</h3>
-            <img src="images/pumpkin.jpg" alt="pumpkin">
-          </article>
-          <article class="featured-flavor-block">
-            <h3>Apple pie</h3>
-            <img src="images/apple-pie.jpg" alt="apple pie">
-          </article>
-          <article class="featured-flavor-block">
-            <h3>Pistachio</h3>
-            <img src="images/pistachio.jpg" alt="pistachio">
-          </article>
-          <article class="featured-flavor-block">
-            <h3>Cinnamon Stick</h3>
-            <img src="images/cinnamon.jpg" alt="cinnamon">
-          </article>
-          <article class="featured-flavor-block">
-            <h3>Mayan Spice Chocolate</h3>
-            <img src="images/mayan-spice-chocolate.jpg" alt="mayan spice chocolate">
-          </article>
-          <article class="featured-flavor-block">
-            <h3>Caramel Apple</h3>
-            <img src="images/caramel-apple.jpg" alt="caramel apple">
-          </article>
-          <article class="featured-flavor-block">
-            <h3>Maple Bacon &amp; Waffle</h3>
-            <img src="images/maple-bacon-waffle.jpg" alt="maple bacon and waffle">
-          </article>
-          <article class="featured-flavor-block">
-            <h3>Sweet Potato Casserole</h3>
-            <img src="images/sweet-potato.jpg" alt="sweet potato casserole">
-          </article>
-          <article class="featured-flavor-block">
-            <h3>Beer and Nuts</h3>
-            <img src="images/beer-and-nuts.jpg" alt="beer and nuts">
-          </article>
-        </section>
+  <body>
+      <!--[if lt IE 10]>
+          <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
 
-        <div class="info-block contact-us">
-          <p class="script"><span>Hello</span></p>
-          <h2 class="block">Contact</h2>
-          <p class="descriptive-text">Select a form below, fill it out and we will be in contact with you within 24 hours to answer your questions! In the meantime you can see what we are up to on our <a href="#">Facebook</a> and <a href="#">Instagram</a> pages.</p>
-        </div>
-
-        <div class="contact-buttons">
-          <nav>
-            <ul>
-              <li id="inquiries"><a href="#">Inquiries</a></li>
-              <li id="wholesale"><a href="#">Wholesale</a></li>
-              <li id="catering"><a href="#">Catering</a></li>
-            </ul>
-          </nav>
-        </div>
-
-<!--          <div>
-        <a href="#">Wholesale</a>
-            <p>We are proud to have our ice cream served at some of the finest restaurants in and around the Chattanooga area. If your business is interested in scooping the best ice cream around, please let us know!</p>
-            <a href="#">Catering</a>
-            <p>Clumpies would love to be at your next event! Provide some information below and we’ll get back to you as soon as possible with information and availability.</p>
-          </div>
-        -->
-        <!-- Contact Form -->
-        <form id="contact-form" action="#" method="post">
-          <p>Have a general question for us? No worries - just fill out the simple form below and we will do our best to get back to you with a pretty darn good answer!</p>
-          <table>
-            <tr>
-              <td><label for="name">Name*</label></td>
-              <td><label for="biz-name">Business Name, if applicable</label></td>
-            </tr>
-            <tr>
-              <td><input required type="text" id="name"></td>
-              <td><input type="text" id="biz-name"></td>
-            </tr>
-            <tr>
-              <td><label for="email">Email address*</label></td>
-              <td><label for="address">Address</label></td>
-            </tr>
-
-            <tr>
-              <td><input required type="email" id="email"></td>
-              <td><input type="text" id="address"></td>
-            </tr>
-
-            <tr>
-              <td><label for="city">City</label></td>
-              <td><label for="state">State</label></td>
-            </tr>
-
-            <tr>
-              <td><input type="text" id="state"></td>
-              <td><input type="text" id="city"></td>
-            </tr>
-
-            <tr>
-              <td><label for="zip">Zip</label></td>
-              <td><label for="phone">Phone Number</label></td>
-            </tr>
-
-            <tr>
-              <td><input type="text" id="zip"></td>
-              <td><input type="tel" id="phone"></td>
-            </tr>
-
-            <tr>
-              <td><label for="comments">Question/Comment</label></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td><textarea rows="6" cols="44" id="comments" form="contact-form"></textarea></td>
-              <td></td>
-            </tr>
-          </table>
-          <button type="submit">Submit</button>
-        </form>
-
-        <!--Footer -->
-        <footer class="page-footer">
-          <img id="logo" src="images/logo-big.png" alt="Clumpies logo">
-          <section class="biz-hours">
-            <h3>Open Today:</h3>
-            <p>11:00am to 10:00pm</p>
-            <table id="biz-hours">
-              <tr>
-                <td>Sunday</td>
-                <td>11:00am to 10:00pm</td>
-              </tr>
-              <tr>
-                <td>Monday</td>
-                <td>11:00am to 10:00pm</td>
-              </tr>
-              <tr>
-                <td>Tuesday</td>
-                <td>11:00am to 10:00pm</td>
-              </tr>
-              <tr>
-                <td>Wednesday</td>
-                <td>11:00am to 10:00pm</td>
-              </tr>
-              <tr>
-                <td>Thursday</td>
-                <td>11:00am to 10:00pm</td>
-              </tr>
-              <tr>
-                <td>Friday</td>
-                <td>11:00am to 11:00pm</td>
-              </tr>
-              <tr>
-                <td>Saturday</td>
-                <td>11:00am to 11:00pm</td>
-              </tr>
-            </table>
-          </section>
-
-          <section class="footer-column-2">
-            <h2>Contact Stuff</h2>
-            <div class="biz-contact-info">
-              <h3>Contact Info</h3>
-              26 Frazier Avenue<br>
-              Chattanooga, Tennessee 37405<br>
-              <span class="block">Phone<br></span>
-              423.267.5425<br>
-            </div>
-
-            <div class="social-icons">
-              <h3>Social Media</h3>
+    <header>
+      <div class="page-header">
+        <h1>Clumpies Ice Cream Co.</h1>
+          <img class="logo" src="images/logo-big.png" alt="logo">
+          <div class="hamburger">
+            <img src="images/hamburger-icon.png" alt="hamburger menu">
+            <nav class="main-nav">
               <ul>
-                <li><i class="fa fa-facebook"><span>Facebook</span></i></li>
-                <li><i class="fa fa-instagram"><span>Instagram</span></i></li>
-                <li><i class="fa fa-twitter"><span>Twitter</span></i></li>
+                <li><a href="">Flavors</a></li>
+                <li><a href="">Our Process</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Location</a></li>
+                <li><a href="">Partners</a></li>
+                <li><a href="">Clumpie's Cart</a></li>
+                <li><a href="">Wholesale</a></li>
+                <li><a href="">Contact</a></li>
               </ul>
-            </div>
+              <a href=""><img class="close-x" src="images/close-x.png" alt="close x"></a>
+            </nav>
+          </div>
+        <hr>
+      </div>
+    </header>
 
-            <div class="copyright-info">
-              <h3>Copyright Info</h3>
-              <p>&copy; 2014 Copyright Clumpies Ice Cream Co.</p>
-              <p>Website Design by Papercut Interactive.</p>
-            </div>
-          </section>
+    <section class="classic-flavors">
+        <p class="script"><span>Explore</span></p>
+        <h2 class="block">Classic Flavors</h2>
 
-          <section class="chalkboard">
-            <h2>Chalkboard</h2>
-            <img src="images/chalkboard.jpg" alt="Chalkboard Menu">
-          </section>
-        </footer>
-        <!--End footer -->
+      <div class="classic-flavor-block">
+        <a><img src="images/classic-flavors/butter-pecan-web.png" alt="butter pecan"></a>
+        <div class="flavor-description">
+          <h3 class="block">Butter Pecan</h3>
+          <p class="flavor-description">A true southern classic. A buttery ice cream swirled with delicious roasted Georgia Pecans.</p>
+        </div>
       </div>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script>
+      <div class=classic-flavor-block>
+        <a><img src="images/classic-flavors/chcolcate-web.png" alt="chocolate"></a>
+        <div class="flavor-description">
+          <h3 class="block">Chocolate</h3>
+          <p class="flavor-description">Dark cocoa, sugar and vanilla combine to create an exquisite chocolate ice cream. No frills, just delicious.</p>
+        </div>
+      </div>
 
-        <!-- build:js scripts/vendor.js -->
-        <!-- bower:js -->
-        <script src="bower_components/jquery/dist/jquery.js"></script>
-        <script src="bower_components/eventEmitter/EventEmitter.js"></script>
-        <script src="bower_components/eventie/eventie.js"></script>
-        <script src="bower_components/imagesloaded/imagesloaded.js"></script>
-        <!-- endbower -->
-        <script src="bower_components/imagefill/js/jquery-imagefill.js"></script>
-        <!-- endbuild -->
+      <div class=classic-flavor-block>
+        <a><img src="images/classic-flavors/chocolate-chocolate-chunk-web.png" alt="chocolate chocolate chunk"></a>
+        <div class="flavor-description">
+          <h3 class="block">Chocolate Chocolate Chunk</h3>
+          <p class="flavor-description">We include double the cocoa as our classic chocolate ice cream, and then add dark chocolate chunks to the batch halfway through.</p>
+        </div>
+      </div>
 
-        <!-- build:js scripts/main.js -->
-        <script src="scripts/main.js"></script>
-        <!-- endbuild -->
-</body>
+      <div class=classic-flavor-block>
+        <a><img src="images/classic-flavors/chocolate-almond-chunk-web.png" alt="coconut almond chunk"></a>
+        <div class="flavor-description">
+          <h3 class="block">Coconut Almond Chunk</h3>
+          <p class="flavor-description">A coconut ice cream with shredded coconut and vanilla, combined with dark chocolate chunks and delicious buttered salted almonds</p>
+        </div>
+      </div>
+
+      <div class=classic-flavor-block>
+        <a><img src="images/classic-flavors/coffee-raw-web.png" alt="Coffee"></a>
+        <div class="flavor-description">
+          <h3 class="block">Coffee</h3>
+          <p class="flavor-description">The best cup of coffee you’ll ever have. We start with an extra dark cold brew of Chattanooga Coffee Co.’s French Roast.</p>
+        </div>
+      </div>
+
+      <div class=classic-flavor-block>
+        <a><img src="images/classic-flavors/coffee-toffee-web.png" alt="coffee toffee"></a>
+        <div class="flavor-description">
+          <h3 class="block">Coffee Toffee</h3>
+          <p class="flavor-description">Our same classic coffee ice cream swirled with delicious chocolate covered Heath topping.</p>
+        </div>
+      </div>
+
+      <div class=classic-flavor-block>
+        <a><img src="images/classic-flavors/cookies-cream-web.png" alt="cookies and cream"></a>
+        <div class="flavor-description">
+          <h3 class="block">Cookies and Cream</h3>
+          <p class="flavor-description">Milk and Cookies. Vanilla ice cream combined with pounds of Oreos. Classic and delicious. </p>
+        </div>
+      </div>
+
+      <div class=classic-flavor-block>
+        <a><img src="images/classic-flavors/cookie-dough-web.png" alt="cookie dough"></a>
+        <div class="flavor-description">
+          <h3 class="block">Cookie Dough</h3>
+          <p class="flavor-description">A vanilla ice cream swirled with Italian Straciatella chocolate and large chunks of the best chocolate chip cookie dough around.</p>
+        </div>
+      </div>
+
+      <div class=classic-flavor-block>
+        <a><img src="images/classic-flavors/espresso-chocolate-chunk-web.png" alt="espresso chocolate chunk"></a>
+        <div class="flavor-description">
+          <h3 class="block">Espresso Chocolate Chunk</h3>
+          <p class="flavor-description">A more hopped up coffee flavor chocked full of dark chocolate chunks.</p>
+        </div>
+      </div>
+
+      <div class=classic-flavor-block>
+        <a><img src="images/classic-flavors/firecracker-web.png" alt="firecracker"></a>
+        <div class="flavor-description">
+          <h3 class="block">Firecracker</h3>
+          <p class="flavor-description">Tutti Frutti ice cream scooped with fresh Pop-Rocks to ensure maximum crackling.</p>
+        </div>
+      </div>
+
+      <div class=classic-flavor-block>
+        <a><img src="images/classic-flavors/french-silk-web.png" alt="french silk"></a>
+        <div class="flavor-description">
+          <h3 class="block">French Silk</h3>
+          <p class="flavor-description">A rich and creamy milk chocolate ice cream, with half the cocoa of our chocolate ice cream and extra fine chocolate flakes.</p>
+        </div>
+      </div>
+
+      <div class=classic-flavor-block>
+        <a><img src="images/classic-flavors/mint-chocolate-chip-web.png" alt="mint chocolate chunk"></a>
+        <div class="flavor-description">
+          <h3 class="block">Mint Chocolate Chunk</h3>
+          <p class="flavor-description">A refreshing mint ice cream swirled with Italian Straciatella chocolate and full of dark chocolate chunks.</p>
+        </div>
+      </div>
+
+      <div class=classic-flavor-block>
+        <a><img src="images/classic-flavors/pralins-cream-web.png" alt="pralines and cream"></a>
+        <div class="flavor-description">
+          <h3 class="block">Pralines and Cream</h3>
+          <p class="flavor-description">Another Southern favorite. Our ice cream swirled with praline pecans and caramel.</p>
+        </div>
+      </div>
+
+      <div class=classic-flavor-block>
+        <a><img src="images/classic-flavors/raspberry-sorbet-web.png" alt="raspberry sorbet"></a>
+        <div class="flavor-description">
+          <h3 class="block">Raspberry Sorbet</h3>
+          <p class="flavor-description">Bright red raspberries and lemon juice, combined with pure cane sugar make this a delicious and slightly tangy sorbet. </p>
+        </div>
+      </div>
+
+      <div class=classic-flavor-block>
+        <a><img src="images/classic-flavors/strawberry-web.png" alt="strawberry"></a>
+        <div class="flavor-description">
+          <h3 class="block">Strawberry</h3>
+          <p class="flavor-description">We start the batch off with a puree of strawberries. Halfway through we add 5 more pounds of marinated delicious strawberries.</p>
+        </div>
+      </div>
+
+      <div class=classic-flavor-block>
+        <a><img src="images/classic-flavors/strawberry-sorbet.png" alt="strawberry sorbet"></a>
+        <div class="flavor-description">
+          <h3 class="block">Strawberry Sorbet</h3>
+          <p class="flavor-description">Lush strawberries blended with pure cane sugar and frozen into a smooth and delicious strawberry sorbet. </p>
+        </div>
+      </div>
+
+      <div class=classic-flavor-block>
+        <a><img src="images/classic-flavors/sweet-cream-web.png" alt="sweet cream"></a>
+        <div class="flavor-description">
+          <h3 class="block">Sweet Cream</h3>
+          <p class="flavor-description">Our cleanest, most simple flavor, nothing added other than milk, sugar, and cream. </p>
+        </div>
+      </div>
+
+      <div class=classic-flavor-block>
+        <a><img src="images/classic-flavors/scoops-template-web.png" alt="vanilla bean"></a>
+        <div class="flavor-description">
+          <h3 class="block">Vanilla Bean</h3>
+          <p class="flavor-description">A custard style ice cream with egg yolks, vanilla extract, and vanilla bean specks. </p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="info-block featured-flavors">
+        <p class="script"><span>Take a Look</span></p>
+        <h2 class="block">Featured Flavors</h2>
+        <p class="descriptive-text">In addition to our classic flavors, Clumpies also offers rotating featured favorites throughout the year. These flavors change with the seasons, so follow us on <a href="#">Twitter</a>/<a href="#">Instagram</a> to stay up to date.</p>
+      </div>
+      <article class="featured-flavor-block">
+        <h3>Mascarpone and Figs</h3>
+        <img src="images/featured-flavors/marscapogne-fig.jpg" alt="mascarpone and figs">
+      </article>
+      <article class="featured-flavor-block">
+        <h3>Chai</h3>
+        <img src="images/featured-flavors/chai.jpg" alt="chai">
+      </article>
+      <article class="featured-flavor-block">
+        <h3>Pumpkin</h3>
+        <img src="images/featured-flavors/pumpkin.jpg" alt="pumpkin">
+      </article>
+      <article class="featured-flavor-block">
+        <h3>Apple pie</h3>
+        <img src="images/featured-flavors/apple-pie.jpg" alt="apple pie">
+      </article>
+      <article class="featured-flavor-block">
+        <h3>Pistachio</h3>
+        <img src="images/featured-flavors/pistachio.jpg" alt="pistachio">
+      </article>
+      <article class="featured-flavor-block">
+        <h3>Cinnamon Stick</h3>
+        <img src="images/featured-flavors/cinnamon.jpg" alt="cinnamon">
+      </article>
+      <article class="featured-flavor-block">
+        <h3>Mayan Spice Chocolate</h3>
+        <img src="images/featured-flavors/mayan-spice-chocolate.jpg" alt="mayan spice chocolate">
+      </article>
+      <article class="featured-flavor-block">
+        <h3>Caramel Apple</h3>
+        <img src="images/featured-flavors/caramel-apple.jpg" alt="caramel apple">
+      </article>
+      <article class="featured-flavor-block">
+        <h3>Maple Bacon &amp; Waffle</h3>
+        <img src="images/featured-flavors/maple-bacon-waffle.jpg" alt="maple bacon and waffle">
+      </article>
+      <article class="featured-flavor-block">
+        <h3>Sweet Potato Casserole</h3>
+        <img src="images/featured-flavors/sweet-potato.jpg" alt="sweet potato casserole">
+      </article>
+      <article class="featured-flavor-block">
+        <h3>Beer and Nuts</h3>
+        <img src="images/featured-flavors/beer-and-nuts.jpg" alt="beer and nuts">
+      </article>
+    </section>
+
+    <section class="pricing-details">
+      <div class="box">
+        <h3>Pricing Details</h3>
+        <p>We price all of our ice cream based on weight at 60¢ per ounce. This allows for our guests to enjoy as much or as little as they’d like. Typically, one scoop averages around $2.50</p>
+      </div>
+    </section>
+
+    <section class="info-block our-process">
+      <img src="images/our-process.jpg" alt="Our process">
+      <div class="our-process-text">
+        <p class="script"><span>Crafted with Care</span></p>
+        <h2 class="block">Our Process</h2>
+        <p class="descriptive-text">Each batch of Clumpies ice cream is made by hand with only the finest ingredients that can be found. We hand craft our ice cream in small batches, ten gallons or less at a time. That micro-batch process allows us to care for and consider each scoop of ice cream that we serve. The result is a rich, creamy, delicious ice cream crafted with care. It may take longer, but we think it makes our ice cream that much better.</p>
+      </div>
+    </section>
+
+    <div class="info-block contact-us">
+      <p class="script"><span>Hello</span></p>
+      <h2 class="block">Contact</h2>
+      <p class="descriptive-text">Select a form below, fill it out and we will be in contact with you within 24 hours to answer your questions! In the meantime you can see what we are up to on our <a href="#">Facebook</a> and <a href="#">Instagram</a> pages.</p>
+    </div>
+
+    <div class="contact-buttons">
+      <nav>
+        <ul>
+          <li id="inquiries"><a href="#">Inquiries</a></li>
+          <li id="wholesale"><a href="#">Wholesale</a></li>
+          <li id="catering"><a href="#">Catering</a></li>
+        </ul>
+      </nav>
+    </div>
+
+<!--          <div>
+    <a href="#">Wholesale</a>
+        <p>We are proud to have our ice cream served at some of the finest restaurants in and around the Chattanooga area. If your business is interested in scooping the best ice cream around, please let us know!</p>
+        <a href="#">Catering</a>
+        <p>Clumpies would love to be at your next event! Provide some information below and we’ll get back to you as soon as possible with information and availability.</p>
+      </div>
+    -->
+    <!-- Contact Form -->
+    <form id="contact-form" action="#" method="post">
+      <p>Have a general question for us? No worries - just fill out the simple form below and we will do our best to get back to you with a pretty darn good answer!</p>
+      <table>
+        <tr>
+          <td><label for="name">Name*</label></td>
+          <td><label for="biz-name">Business Name, if applicable</label></td>
+        </tr>
+        <tr>
+          <td><input required type="text" id="name"></td>
+          <td><input type="text" id="biz-name"></td>
+        </tr>
+        <tr>
+          <td><label for="email">Email address*</label></td>
+          <td><label for="address">Address</label></td>
+        </tr>
+
+        <tr>
+          <td><input required type="email" id="email"></td>
+          <td><input type="text" id="address"></td>
+        </tr>
+
+        <tr>
+          <td><label for="city">City</label></td>
+          <td><label for="state">State</label></td>
+        </tr>
+
+        <tr>
+          <td><input type="text" id="state"></td>
+          <td><input type="text" id="city"></td>
+        </tr>
+
+        <tr>
+          <td><label for="zip">Zip</label></td>
+          <td><label for="phone">Phone Number</label></td>
+        </tr>
+
+        <tr>
+          <td><input type="text" id="zip"></td>
+          <td><input type="tel" id="phone"></td>
+        </tr>
+
+        <tr>
+          <td><label for="comments">Question/Comment</label></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><textarea rows="6" cols="44" id="comments" form="contact-form"></textarea></td>
+          <td></td>
+        </tr>
+      </table>
+      <button type="submit">Submit</button>
+    </form>
+
+    <!--Footer -->
+    <footer class="page-footer">
+      <img id="logo" src="images/logo-big.png" alt="Clumpies logo">
+      <section class="biz-hours">
+        <h3>Open Today:</h3>
+        <p>11:00am to 10:00pm</p>
+        <table id="biz-hours">
+          <tr>
+            <td>Sunday</td>
+            <td>11:00am to 10:00pm</td>
+          </tr>
+          <tr>
+            <td>Monday</td>
+            <td>11:00am to 10:00pm</td>
+          </tr>
+          <tr>
+            <td>Tuesday</td>
+            <td>11:00am to 10:00pm</td>
+          </tr>
+          <tr>
+            <td>Wednesday</td>
+            <td>11:00am to 10:00pm</td>
+          </tr>
+          <tr>
+            <td>Thursday</td>
+            <td>11:00am to 10:00pm</td>
+          </tr>
+          <tr>
+            <td>Friday</td>
+            <td>11:00am to 11:00pm</td>
+          </tr>
+          <tr>
+            <td>Saturday</td>
+            <td>11:00am to 11:00pm</td>
+          </tr>
+        </table>
+      </section>
+
+      <section class="footer-column-2">
+        <h2>Contact Stuff</h2>
+        <div class="biz-contact-info">
+          <h3>Contact Info</h3>
+          26 Frazier Avenue<br>
+          Chattanooga, Tennessee 37405<br>
+          <span class="block">Phone<br></span>
+          423.267.5425<br>
+        </div>
+
+        <div class="social-icons">
+          <h3>Social Media</h3>
+          <ul>
+            <li><i class="fa fa-facebook"><span>Facebook</span></i></li>
+            <li><i class="fa fa-instagram"><span>Instagram</span></i></li>
+            <li><i class="fa fa-twitter"><span>Twitter</span></i></li>
+          </ul>
+        </div>
+
+        <div class="copyright-info">
+          <h3>Copyright Info</h3>
+          <p>&copy; 2014 Copyright Clumpies Ice Cream Co.</p>
+          <p>Website Design by Papercut Interactive.</p>
+        </div>
+      </section>
+
+      <section class="chalkboard">
+        <h2>Chalkboard</h2>
+        <img src="images/chalkboard.jpg" alt="Chalkboard Menu">
+      </section>
+    </footer>
+    <!--End footer -->
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/eventEmitter/EventEmitter.js"></script>
+    <script src="bower_components/eventie/eventie.js"></script>
+    <script src="bower_components/imagesloaded/imagesloaded.js"></script>
+    <!-- endbower -->
+    <script src="bower_components/imagefill/js/jquery-imagefill.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+  </body>
 </html>

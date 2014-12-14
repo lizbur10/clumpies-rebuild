@@ -9,27 +9,27 @@
     &:first-child {
       padding-left: 1em;
     }
-    text-indent: -9999px;
+    text-indent: -999em;
     & a {
       display: block;
-      height: 64px;
+      height: 4em;
     }
     &#inquiries a {
-      width: 361px;
+      width: 22.5625em;
       background: url(../images/inquiries-button.png) bottom center no-repeat;
       &:hover {
         background-position: top;
       }
     }
     &#wholesale a {
-      width: 360px;
+      width: 22.5em;
       background: url(../images/wholesale-button.png) top center no-repeat;
       &:hover {
         background-position: bottom;
       }
     }
     &#catering a {
-      width: 361px;
+      width: 22.5625em;
       background: url(../images/catering-button.png) top center no-repeat;
       &:hover {
         background-position: bottom;

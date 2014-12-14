@@ -5,24 +5,24 @@
   }
   ul {
     list-style-type: none;
-    margin-top: 6px;
+    margin-top: .375em;
     padding-left: 0;
     text-align: center;
     span {
       @include visuallyhidden();
     }
     li {
-      padding: 10px;
-      margin: 9px;
+      padding: .625rem;
+      margin: 0.5625rem;
       display: inline-block;
       text-align: center;
-      font-size: 25px;
-      width: 56px;
-      height: 56px;
+      font-size: 1.5625rem;
+      width: 3.5rem;
+      height: 3.5rem;
       border: 1px solid;
-      border-radius: 30px;
-      -moz-border-radius: 30px;
-      -webkit-border-radius: 30px;
+      border-radius: 1.875rem;
+      -moz-border-radius: 1.875rem;
+      -webkit-border-radius: 1.875rem;
       color: $brown-medium;
       background-color: $cream;
     }

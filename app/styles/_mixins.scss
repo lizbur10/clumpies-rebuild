@@ -16,3 +16,42 @@
   display: table;
   clear: both;
 }
+
+@mixin heading-script() {
+  //The code for the decorative line thingies came from:  //http://stackoverflow.com/questions/5214127/css-technique-for-a-horizontal-line-with-words-in-the-middle
+  font-family: $fontstack-script;
+  font-size: 3.5rem;
+  color: $brown-light;
+  text-align: center;
+  border-bottom: 2px solid $brown-light;
+  line-height: 0.1em;
+  margin: 1.875rem auto 0;
+  span {
+    background: url(../images/texture.png);
+    background-color: $white;
+    padding:0 0.25em;
+  }
+}
+
+@mixin heading-block() {
+  text-align: center;
+  color: $brown-dark;
+  font-family: $fontstack-block;
+  font-weight: 900;
+  font-size: 4.2em;
+  margin-top: 0;
+  line-height: 7rem;
+  }
+
+@mixin descriptive-text() {
+  letter-spacing: 0.08em;
+  line-height: 2.1em;
+  margin-bottom: 2.5em;
+  a {
+    text-decoration: none;
+    font-size: 1.15em;
+    font-family: $fontstack-text-bold;
+    letter-spacing: 0;
+    color: $red;
+  }
+}
