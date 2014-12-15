@@ -7,6 +7,7 @@
   }
   .block {
     @include heading-block();
+    margin-bottom: 0.5em;
   }
   .descriptive-text {
     @include descriptive-text();
