@@ -1,0 +1,24 @@
+.our-process {
+  img {
+    width: 40rem;
+    margin: 0;
+    float: left;
+  }
+  .text-area {
+    max-width: 31.9375rem;
+    margin: 3rem 3.875rem;
+    float: right;
+  }
+  .descriptive-text {
+    @include descriptive-text();
+    font-size: 1.1em;
+  }
+  .script {
+    @include heading-script();
+    width: 100%;
+  }
+  h2 {
+    @include heading-block();
+    margin-bottom: 0;
+  }
+}

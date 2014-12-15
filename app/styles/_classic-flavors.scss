@@ -15,7 +15,7 @@
     margin-top: 3em;
   }
 
-  div.classic-flavor-block {
+  .classic-flavor-block {
       height: 34.375em;
       width: 16em;
       float: left;
@@ -58,7 +58,7 @@
     -o-transition: all .5s ease-in-out;
     -ms-transition: all .5s ease-in-out;
   }
-  div.classic-flavor-block:hover {
+  .classic-flavor-block:hover {
     cursor: pointer;
     img {
       -webkit-transform: rotate(15deg);
